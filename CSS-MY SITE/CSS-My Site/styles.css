@@ -25,7 +25,7 @@ h3{
 .top-container{
     background-color: #e0ebe8;
     position: relative;
-    padding-top: 100px;  
+    padding-top: 150px;  
 }
 .middle-container{
     padding-top: 75px;
@@ -51,7 +51,7 @@ h3{
     position: relative;
     height: 300px;
     vertical-align: middle;
-        
+    
 }
 .myself{
     height:200px ;
@@ -125,3 +125,25 @@ a:hover{
     background: #1de0e0;
     text-decoration: none;
   }
+.imgbox{
+    position: absolute;
+    right: 100px;
+    top: 1px;
+    animation: animateUser 4s linear infinite;
+    margin-right:100px;
+    margin-top: 50pX;
+}
+.imgbox2{
+    position: relative;
+    right: 100px;
+    top: 1px;
+    animation: animateUser 4s linear infinite;
+    margin-left: -700px;
+}
+
+@keyframes animateUser{
+    50%{
+        right: 30px;
+      
+    }
+}
